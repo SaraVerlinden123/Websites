@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  
+
+
+  </style>
+
+  <body>
+    <div class="header">
+      <h1>Sara Verlinden</h1>
+      <div class="navigatiemenu">
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="ervaring.html">Ervaring</a>
+        <a href="hobby.html">Vrije Tijd</a>
+        <a id="CON" href="contact.html">Contact</a>
+      </div>
+    </div>
+
+      
+      <h2>Mijn gegevens</h2>
+
+    <table>
+      <tr>
+        <th>Woonplaats</th>
+        <th>GSM</th>
+        <th>LinkedIN</th>
+      </tr>
+      <tr>
+        <td>Duinen 101, 1409 Zee</td>
+        <td>+123456789</td>
+        <td>
+          <a href="https://www.linkedin.com/home" target="_blank" id="LinkedIN"
+            >Mijn Profiel</a
+          >
+        </td>
+      </tr>
+    </table>
+
+
+      <h2>Stuur hier een berichtje in</h2>
+   
+   
+    <section>
+    <form
+      action="sendemail.php"
+      method="POST"
+    >
+      <section>
+        <div style="float: left; margin-right: 20px">
+          <label for="name">Naam</label>
+          <input id="name" type="text" value="" name="name" requiered pattern= "[A-Za-z]" placeholder="Verplicht veld"/>
+        </div>
+
+        <div style="float: left">
+          <label for="email">E-mail</label>
+          <input id="email" type="E-mail" value="" name="email"  requiered pattern= "[A-Za-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="Verplicht veld"/>
+        </div>
+        
+        <br style="clear: both" />
+      </section>
+
+      <section>
+        <label for="subject">Onderwerp</label>
+        <input id="subject" type="text" value="" name="subject"  requiered pattern= "[A-Za-z]" placeholder="Verplicht veld" />
+        <label for="reactie"
+          >Bericht: <textarea rows="10" id="reactie" name="reactie"></textarea>
+        </label>
+      </section>
+
+   <section>
+        <input id="indienen" type="submit" value="Indienen" />
+</section>
+
+
+    </form>
+</section>
+  </body>
+</html>

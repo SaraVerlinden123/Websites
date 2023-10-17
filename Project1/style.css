@@ -1,0 +1,210 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  color: #59544a;
+}
+
+@font-face {
+  src: url(fonts/LouisGeorgeCafe.ttf);
+  font-family: "LouisGeorgeCafe";
+}
+
+body {
+  /*background-color: #F2E9D8;*/
+  background-color: #f2f2f2;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "LouisGeorgeCafe";
+}
+
+/*Titel stijlen*/
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Naviatiemenu*/
+
+.header {
+  border: solid #59544a;
+}
+
+.navigatiemenu {
+  display: flex;
+  background-color: #59544a;
+}
+
+.navigatiemenu a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+}
+
+.navigatiemenu a:hover {
+  background-color: #8c8c8c;
+}
+
+/*aanduiding in menu in welk onderdeel we zitten */
+#HOME,
+#CV,
+#ERV,
+#HOB,
+#CON {
+  background-color: #8c8c8c;
+}
+
+/*Afbeeldingen*/
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*Video*/
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: auto;
+}
+
+/*Lijst stijlen*/
+ul {
+  list-style: none;
+  margin: 5px;
+}
+
+ul ul li {
+  list-style: square;
+  margin: 2px;
+  /*max-width: 70%;*/
+  word-wrap: break-word;
+}
+
+ul ul ul li {
+  list-style: circle;
+  margin: 2px;
+  /*max-width: 70%;*/
+  word-wrap: break-word;
+}
+/*Tabel stijlen*/
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  border: 1px solid #59544a;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*Contact pagina unieke stijl in tabel: link naar linkedIN*/
+#LinkedIN {
+  text-decoration: none;
+}
+
+#LinkedIN:hover {
+  background-color: #595959;
+  color: #f2f2f2;
+}
+
+/*Talensterke: staafdiagriam */
+.container {
+  width: 200px;
+  background-color: #59544a;
+}
+.talen {
+  text-align: right;
+  color: #59544a;
+  margin-bottom: 2px;
+}
+
+.nederlands {
+  width: 100%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: solid;
+  border-color: #59544a;
+}
+.frans {
+  width: 75%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: solid;
+  border-color: #59544a;
+}
+.engels {
+  width: 90%;
+  padding: 5px;
+  background-color: #f2f2f2;
+  border: solid;
+  border-color: #59544a;
+}
+
+/*Formulier stijlen */
+input {
+  display: block;
+  color: #59544a;
+  background-color: #f2f2f2;
+  font-family: "LouisGeorgeCafe";
+  font-size: 20px;
+}
+
+label {
+  display: block;
+  color: #59544a;
+  font-weight: 700;
+  background-color: #f2f2f2;
+}
+
+textarea {
+  display: block;
+  width: 600px;
+  color: #59544a;
+  background-color: #f2f2f2;
+  font-family: "LouisGeorgeCafe";
+  font-size: 20px;
+}
+
+#indienen {
+  background-color: #59544a;
+  margin: 4px;
+  padding: 4px;
+  color: #f2f2f2;
+  border: none;
+  font-size: 20px;
+}
+
+#indienen:hover {
+  background-color: #f2f2f2;
+  margin: 4px;
+  padding: 4px;
+  color: #59544a;
+  border: none;
+  font-size: 20px;
+}

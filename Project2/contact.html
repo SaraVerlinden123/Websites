@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="customstyle.css" />
+    <!-- <link rel="stylesheet" href="style-webdevsimplified.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/eec31fc1b3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <!-- Naam -->
+    <div><h1>Sara Verlinden</h1></div>
+    <!-- Navibatie-menu -->
+    <nav
+      class="navbar navbar-expand-sm navbar-dark"
+      style="background-color: #59544a"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><i class="bi bi-cup-hot"></i
+        ></a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-label="expand navigation"
+        >
+          <div class="navbar-toggler-icon"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="cv.html" class="nav-link">CV</a>
+            </li>
+            <li class="nav-item">
+              <a href="ervaring.html" class="nav-link">Ervaring</a>
+            </li>
+            <li class="nav-item">
+              <a href="hobby.html" class="nav-link">Vrije Tijd</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <h2>Hoe kan je me bereiken?</h2>
+      <p>
+        Je kan me bereiken door me een berichtje te sturen via onderstaand
+        <strong>contactformulier</strong> of via <strong>LinkedIN</strong>.
+        Daarnaast kan je me ook steeds bereiken via telefoon.
+      </p>
+      <h3>Mijn gegevens</h3>
+      <ul>
+        <li>GSM: +123456789</li>
+        <li>
+          LinkedIN:
+          <a
+            class="link-secondary"
+            href="https://www.linkedin.com/home"
+            target="_blank"
+            id="LinkedIN"
+            >Mijn profiel</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="container"><h3>Contactformulier</h3></div>
+
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-sm-6 mt-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Voornaam"
+              required
+            />
+          </div>
+          <div class="col-sm-6 mt-2">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Achternaam"
+              required
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 mt-2">
+            <select class="form-select">
+              <option value="">Kies een skill die u interesseert.</option>
+              <option value="1">Html</option>
+              <option value="2">CSS</option>
+              <option value="3">C#</option>
+              <option value="3">Python</option>
+              <option value="3">R</option>
+              <option value="3">Matlab</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <div class="col">
+            <input
+              type="Email"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="form-group mt-2">
+          <textarea
+            class="form-control"
+            id="Bericht"
+            rows="3"
+            placeholder="Typ hier je bericht."
+            required
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="btn mt-2"
+          style="background-color: #59544a; color: #f2f2f2"
+        >
+          Verstuur
+        </button>
+      </form>
+    </div>
+    <div class="b-example-divider"></div>
+
+    <div class="container my-5">
+      <footer class="text-center" style="background-color: #f2f2f2">
+        <div class="container pt-4">
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.facebook.com/?locale=nl_NL"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://twitter.com/?lang=nl"
+              role="button"
+              data-mdb-ripple-color="dark"
+              <
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </div>
+
+        <div
+          class="text-center p-1"
+          style="background-color: #59544a; color: #f2f2f2"
+        >
+          Sara Verlinden © 2023 Copyright:
+          <a
+            href="https://mdbootstrap.com/"
+            style="background-color: #59544a; color: #f2f2f2"
+            >MDBootstrap.com</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

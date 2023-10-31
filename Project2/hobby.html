@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="customstyle.css" />
+    <!-- <link rel="stylesheet" href="style-webdevsimplified.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/eec31fc1b3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Hobby</title>
+  </head>
+
+  <body>
+    <!-- Naam -->
+    <div><h1>Sara Verlinden</h1></div>
+    <!-- Navibatie-menu -->
+    <nav
+      class="navbar navbar-expand-sm navbar-dark"
+      style="background-color: #59544a"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><i class="bi bi-cup-hot"></i
+        ></a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-label="expand navigation"
+        >
+          <div class="navbar-toggler-icon"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="cv.html" class="nav-link">CV</a>
+            </li>
+            <li class="nav-item">
+              <a href="ervaring.html" class="nav-link">Ervaring</a>
+            </li>
+            <li class="nav-item">
+              <a href="hobby.html" class="nav-link active">Vrije Tijd</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-vs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie1.jpg"
+                  alt="First slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Eerste slide</h5>
+                  <p style="color: black">Koffietje en boek</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie2.jpg"
+                  alt="Second slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Tweede slide</h5>
+                  <p>Varieteit aan koffie</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie3.jpg"
+                  alt="Third slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Derde slide</h5>
+                  <p>Slappe koffie</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie4.jpg"
+                  alt="Vierde slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #59544a"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Vierde slide</h5>
+                  <p>Cappuccino</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie5.jpg"
+                  alt="Vijfde slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Vijfde slide</h5>
+                  <p>Koffiebonen</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="img/koffie.jpg"
+                  alt="Zesde slide"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  style="color: #f2f2f2"
+                >
+                  <h5>Zesde slide</h5>
+                  <p>Iedereen tesamen koffie</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <h2>De koffieliefhebber</h2>
+            <p>
+              Ik hou ontzettend van koffie. Waarom? Omdat deze voor mij gelijk
+              staan aan warmte en gezelligheid, zowel letterlijk als figuurlijk.
+              Ik ga dan ook graag naar gezellige koffiebarretjes met vrienden,
+              vriendinnen, familie... Of zelfs met een goed boek. In België is
+              er een enorm aanbod, dikwijls in combinatie met gebak. De Zweden
+              hebben hier zelfs een speciaal woord voor: "Fika", letterlijk
+              betekent dit koffieverslaafde, maar voor de mensen in de straat
+              staat dit voor het ltureel gebruik van het nemen van een
+              koffiepauze, vaak in combinatie met gebak, om te socializen, te
+              ontspannen en te genieten van elkaars gezelschap. Graag geef ik
+              nog enkele leuke adresjes mee:
+            </p>
+          </div>
+          <br />
+          <br />
+          <div class="row">
+            <table class="table">
+              <caption>
+                Tabel 1: Tips voor gezellige koffiebarretjes.
+              </caption>
+              <tr>
+                <th style="background-color: #59544a; color: #f2f2f2">Naam</th>
+                <th style="background-color: #59544a; color: #f2f2f2">Stad</th>
+                <th style="background-color: #59544a; color: #f2f2f2">Stijl</th>
+              </tr>
+
+              <tr>
+                <td style="background-color: #f2f2f2">Le Cafe du sablon</td>
+                <td style="background-color: #f2f2f2">Brussel</td>
+                <td style="background-color: #f2f2f2">Slow Coffee</td>
+              </tr>
+              <tr>
+                <td style="background-color: #f2f2f2">Labath</td>
+                <td style="background-color: #f2f2f2">Gent</td>
+                <td style="background-color: #f2f2f2">Teler centraal</td>
+              </tr>
+              <tr>
+                <td style="background-color: #f2f2f2">Buchbar</td>
+                <td style="background-color: #f2f2f2">Antwerpen</td>
+                <td style="background-color: #f2f2f2">Koffie met boek</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <br />
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>De pracht van de natuur</h2>
+          <p>
+            Een beeld zegt meer dan duizend woorden, net zoals deze prachtige
+            foto van mijn reis in de Lofoten, een gebied vlak bij de poolcirkel
+            gelegen in Noorwegen. De Lofoten staan bekend om hun adembenemende
+            landschappen, met steile bergen die uit de zee oprijzen, witte
+            zandstranden, fjorden en pittoreske vissersdorpjes. Op bovenstaande
+            foto zijn "Rorbu" te zien. Dit zijn traditionele vissershutten op de
+            Lofoten. Ze worden vaak verhuurd aan toeristen en bieden een unieke
+            accommodatie-ervaring. Fotografen zijn absoluut wild over dit
+            prachtige landschap. Het is er dan ook een geweldige plek om het
+            noorderlicht te zien. Vooral tijdens de wintermaanden zijn de kansen
+            op het spotten van dit natuurverschijnsel hoog. Meer nog, coor de
+            noordelijke ligging van de Lofoten kun je tijdens de zomermaanden
+            genieten van de middernachtzon, waarbij de zon niet ondergaat en de
+            eilanden baden in het zonlicht, zelfs 's nachts.
+          </p>
+          <p>
+            Reizen is voor mij een onuitputtelijke bron van inspiratie en
+            ontspanning. Het is niet alleen de kans om nieuwe plekken te
+            ontdekken, maar ook om de wereld met andere ogen te zien. Reizen
+            leert je relativeren. De schoonheid, grootheid, en puurheid van onze
+            natuur spreekt gewoonweg voor zich. Door uit de comfortzone te
+            stappen en je onder te dompelen in verschillende culturen, creeër je
+            begrip en waardering voor de diversiteit op aarde zowel in fauna als
+            flora. Ik heb reeds prachtige mogelijkheden gehad om stukken van de
+            wereld te zien: Canada, China, Japan, Noorwegen, Zweden etc. Ik hou
+            het liefst van een reis waarin er een afwisseling is tussen natuur
+            en cultuur, maar waarbij het natuur aspect meer overweegt. Bergen,
+            water en groen zijn altijd een mooie cocktail.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img
+            id="afbeelding"
+            src="img/Lofoten - 500KB2.jpg"
+            class="img-fluid rounded"
+            alt="Deze afbeelding bevat een foto van de Lofoten in Noorwegen. Woest water, met rode houten huisjes langs een klif. "
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <video class="center" controls>
+            <source src="video/Harry.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="col-lg-6">
+          <h2>Festivals</h2>
+          <p>
+          Deze video geeft een korte momentopname weer van het optreden van Harry
+          Styles, met zijn Love Tour op de weide van Rock Werchter in de zomer van
+          2023. Ik vind festivals geweldig omdat ze vreugde en verbondenheid
+          brengen. Ze brengen mensen samen, laten ons genieten en creëren
+          blijvende herinneringen. Festivals geven kleur aan het leven, zoals
+          vriendschap dat doet. Mijn favoriete festival is Rock Werchter door zijn
+          steeds indrukwekkende line-up en professionele organisatie. Het festival
+          heeft de reputatie om enkele van de grootste en meest invloedrijke
+          artiesten ter wereld naar het podium te brengen. De line-up omvat een
+          breed scala aan genres, waaronder rock, pop, indie, elektronische muziek
+          en meer, waardoor er voor iedereen, ongeacht muzieksmaak of leeftijd,
+          iets te beleven valt. Darnaast is het festival steeds goed voorzien, wat
+          bijdraagt tot een fantastische festivalervaring.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      
+    </div>
+    <div class="b-example-divider"></div>
+
+    <div class="container my-5">
+      <footer class="text-center" style="background-color: #f2f2f2">
+        <div class="container pt-4">
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.facebook.com/?locale=nl_NL"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://twitter.com/?lang=nl"
+              role="button"
+              data-mdb-ripple-color="dark"
+              <
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </div>
+
+        <div
+          class="text-center p-1"
+          style="background-color: #59544a; color: #f2f2f2"
+        >
+          Sara Verlinden © 2023 Copyright:
+          <a
+            href="https://mdbootstrap.com/"
+            style="background-color: #59544a; color: #f2f2f2"
+            >MDBootstrap.com</a
+          >
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
